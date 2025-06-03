@@ -23,14 +23,7 @@ const router = createBrowserRouter([
             path: '',
             Component: DashboardPage,
           },
-          {
-            path: 'employees/:employeeId?/*',
-            Component: EmployeesCrudPage,
-          },
-           {
-            path: 'about',
-            Component: About,
-          },
+      
             {
             path: 'transactions',
             Component: Transactions, 
