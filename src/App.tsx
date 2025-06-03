@@ -17,18 +17,7 @@ const NAVIGATION: Navigation = [
     title: 'Dashboard',
     icon: <DashboardIcon />,
   },
-  {
-    segment: 'employees',
-    title: 'Employees',
-    icon: <PersonIcon />,
-    pattern: 'employees{/:employeeId}*',
-  },
-  {
-    segment: 'about',
-    title: 'About',
-    icon: <PersonIcon />,
-    pattern: 'employees{/:employeeId}*',
-  },
+  
   {
     segment: 'transactions',
     title: 'Transactions',

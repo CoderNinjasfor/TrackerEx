@@ -1,9 +1,9 @@
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { toast } from 'react-hot-toast';
 
-// import { fetchTransactions, addTransaction, updateTransaction, deleteTransaction,fetchCategories ,fetchSummaryData} from '../api/api';
+import { fetchTransactions, addTransaction, updateTransaction, deleteTransaction,fetchCategories ,fetchSummaryData} from '../api/api';
 
-import { fetchTransactions, addTransaction, updateTransaction, deleteTransaction ,fetchCategories, fetchSummaryData } from '../axiosCall/api';
+// import { fetchTransactions, addTransaction, updateTransaction, deleteTransaction ,fetchCategories, fetchSummaryData } from '../axiosCall/api';
 
 export const useTransactions = () => {
   return useQuery({ queryKey: ['transactions'], queryFn: fetchTransactions });
