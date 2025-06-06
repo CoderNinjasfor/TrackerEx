@@ -27,7 +27,7 @@ const NAVIGATION: Navigation = [
 
 const BRANDING = {
   title: "",
-  logo: 'Ni',
+  logo: 'Leo',
 };
 
 export default function App() {
